@@ -1,0 +1,125 @@
+{
+  "personal": {
+    "name": "Govind S R",
+    "role": "Computer Science Engineering Student & Developer",
+    "location": "Thiruvananthapuram, Kerala, India",
+    "phone": "+91-94469-09638",
+    "email": "1sreegovind@gmail.com",
+    "github": "https://github.com/theinfinox",
+    "linkedin": "https://linkedin.com/in/theinfinox",
+    "instagram": "https://instagram.com/theinfinox"
+  },
+  "skills": [
+    "C/C++", "Linux / Shell", "Docker / YAML", "AWS / Azure / GCP", 
+    "DigitalOcean", "Git / GitHub Actions", "Nmap / Firewalls", 
+    "Cloudflare Zero Trust", "Raspberry Pi / Arduino", "NodeMCU / ARM", 
+    "I2C / SPI / UART / MQTT", "MySQL", "Amazon SES", "Postman", "DaVinci Resolve"
+  ],
+  "experience": [
+    {
+      "title": "Freelance Cloud Consultant & System Administrator",
+      "company": "Self-Employed",
+      "location": "Remote",
+      "date": "June 2024 - Present",
+      "details": [
+        "Designed and managed multi-cloud infrastructures across AWS, Azure, GCP, and DigitalOcean with secure and optimized configurations.",
+        "Implemented Cloudflare CDN, Zero-Trust, and secure tunneling solutions to enhance system performance and access security.",
+        "Led cyber-attack mitigation, incident response, and recovery operations ensuring high availability and minimal downtime.",
+        "Containerized and deployed applications using Docker, improving portability, reliability, and operational efficiency."
+      ]
+    },
+    {
+      "title": "General Manager",
+      "company": "Manav Prakriti Foundation",
+      "location": "Hybrid",
+      "date": "Mar 2024 - Sep 2025",
+      "details": [
+        "Oversaw end-to-end web administration, ensuring secure, high-performance website operations.",
+        "Produced and edited multimedia content to strengthen organizational outreach and engagement.",
+        "Managed social media strategy, increasing brand visibility and audience reach across platforms."
+      ]
+    },
+    {
+      "title": "DevOps Intern under IHRD",
+      "company": "Kerala Legislative Assembly",
+      "location": "On-site",
+      "date": "Feb 2024 - May 2024",
+      "details": [
+        "Administered Linux servers, ensuring secure, stable, and optimized operational environments.",
+        "Strengthened network security through firewall policies, vulnerability assessments, and access controls.",
+        "Containerized internal applications using Docker to streamline deployment and improve reliability.",
+        "Developed and enhanced CI/CD workflows using GitHub Actions, enabling fully automated builds and testing."
+      ]
+    },
+    {
+      "title": "Technical Lead",
+      "company": "FOSS Cell, CE Attingal",
+      "location": "On-site",
+      "date": "June 2023 - May 2024",
+      "details": [
+        "Architected and deployed a self-hosted server stack to run APIs with minimal infrastructure cost.",
+        "Led development contributions to automated WhatsApp Bot systems for campus productivity."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Haajar",
+      "tech": "Flutter | ReactJS | Appwrite | Amazon SES",
+      "description": "A smart College Management System with a frontend in Flutter and ReactJS. The backend relies on Appwrite, hosted on PiCloud v1.0.",
+      "link": "https://github.com/theinfinox/project_haajar_app"
+    },
+    {
+      "title": "PiCloud",
+      "tech": "Docker | Raspberry Pi | Cloudflare",
+      "description": "A self-hosted server architecture utilizing a home LAN connection and Raspberry Pi technology to securely host web applications via Cloudflare Zero Trust.",
+      "link": "https://info.govindsr.me/"
+    },
+    {
+      "title": "Transit Master",
+      "tech": "Azure VM | Node.js | IoT",
+      "description": "Co-developed an urban mobility solution featuring an NFC-enabled smart card system for efficient public transportation.",
+      "link": "https://github.com/transitmaster/transitmaster.github.io"
+    },
+    {
+      "title": "LAN Based Media Controller",
+      "tech": "NodeJs | JavaScript",
+      "description": "A project that helps to control a PC's running multimedia (Play/Pause/Next/Previous/Volume control) over a local network.",
+      "link": "https://github.com/theinfinox/pc-media-control-lan"
+    },
+    {
+      "title": "Smart Drip Irrigation System",
+      "tech": "Blynk | IFTTT | NodeMCU",
+      "description": "Created an IoT-based automation device for a drip irrigation system with Google Assistant integration.",
+      "link": "https://youtu.be/qXbrW9apR3U"
+    },
+    {
+      "title": "Customized Alexa (COVID-19)",
+      "tech": "Alexa SDK | Raspberry Pi",
+      "description": "Installed and customized Alexa answers for college purposes and a voice-assisted room automation system during lockdown.",
+      "link": "" 
+    }
+  ],
+  "education": [
+    {
+      "degree": "B. Tech. Computer Science and Engineering (2019 Scheme)",
+      "institution": "College of Engineering Attingal, Affiliated to KTU",
+      "location": "Thiruvananthapuram, Kerala"
+    },
+    {
+      "degree": "Higher Secondary Education | Computer Science",
+      "institution": "Govt. Model BHSS, Thycaud",
+      "location": "Percentage: 86%"
+    }
+  ],
+  "recognition": [
+    {
+      "title": "Project Expos",
+      "details": "Recognized for PiCloud and Transit Master at Global Science Festival Kerala (2024), Keraleeyam (2023), KSUM IEDC Summit (2023), and Freedom Fest (2023)."
+    },
+    {
+      "title": "Publications",
+      "details": "Documentary Editor for 'Kerala: The Coasts That Once Was.' by Manav Prakriti Foundation. Zenodo. doi:10.5281/zenodo.18919264."
+    }
+  ]
+}
