@@ -97,3 +97,48 @@ section { margin-bottom: 4rem; }
 @media (min-width: 768px) {
   .project-card { box-shadow: 10px 10px 0px var(--primary-green); padding: 2rem; }
 }
+
+/* Sticky Navigation Bar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: var(--bg-color);
+  border-bottom: 3px solid var(--primary-black);
+  padding: 1rem;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-family: var(--font-mono);
+  font-weight: bold;
+}
+
+.navbar a {
+  color: var(--primary-black);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: var(--primary-green);
+}
+
+/* Grid for dense content (Projects / Experience) */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .grid-2 { grid-template-columns: 1fr 1fr; }
+}
+
+.project-card.compact {
+  padding: 1.2rem;
+}
+
+.project-card.compact h3 {
+  font-size: 1.2rem;
+}
