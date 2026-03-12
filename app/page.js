@@ -1,66 +1,62 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
+    <main className="container">
+      
+      {/* Hero Section */}
+      <section className="hero">
+        <p className="mono-text text-green">HELLO_WORLD</p>
+        <h1>I'm Govind.</h1>
+        <p>
+          A Computer Science Engineering student building clean, minimal, and highly functional digital experiences.
+        </p>
+        <div style={{ marginTop: '2rem' }}>
+          <a href="#contact" className="btn">Get in touch &rarr;</a>
+        </div>
+      </section>
+
+      {/* Skills Section (Using the grid style) */}
+      <section>
+        <h2 style={{ marginBottom: '1.5rem' }}>// Toolkit</h2>
+        <div className="skills-grid">
+          <div className="skill-tag">Linux</div>
+          <div className="skill-tag">Docker</div>
+          <div className="skill-tag">Bash</div>
+          <div className="skill-tag">Next.js</div>
+          <div className="skill-tag">HTML/CSS</div>
+          <div className="skill-tag">C/C++</div>
+        </div>
+      </section>
+
+      {/* Projects Section (Using the card style) */}
+      <section>
+        <h2 style={{ marginBottom: '1.5rem' }}>// Projects</h2>
+        
+        <div className="project-card">
+          <h3>Miniature Automated Air Purifier</h3>
+          <p className="mono-text text-green" style={{ fontSize: '0.8rem', marginBottom: '1rem' }}>HARDWARE | SENSOR LOGIC</p>
           <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
+            Designed and built a fully automated, functional air purification system condensed into a 5cm cube for a college project. 
           </p>
+          <a href="#" className="btn" style={{ padding: '8px 16px', fontSize: '0.8rem' }}>View Details</a>
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div className="project-card">
+          <h3>Linux Unfiltered Interactive Grid</h3>
+          <p className="mono-text text-green" style={{ fontSize: '0.8rem', marginBottom: '1rem' }}>FRONTEND | UI/UX</p>
+          <p>
+            Developed a highly aesthetic, responsive 60-grid interface to display student IDs, featuring real-time search filtering and dynamic routing.
+          </p>
+          <a href="#" className="btn" style={{ padding: '8px 16px', fontSize: '0.8rem' }}>View Code</a>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" style={{ textAlign: 'center', marginTop: '6rem', paddingBottom: '2rem' }}>
+        <h2>Let's Build Something.</h2>
+        <p style={{ margin: '1rem 0 2rem' }}>Currently open for new opportunities and collaborations.</p>
+        <a href="mailto:your-email@example.com" className="btn">Say Hello</a>
+      </section>
+
+    </main>
   );
 }
